@@ -93,7 +93,7 @@ p:not([class]):not(:last-child) {
 }
 
 a:hover {
-    color: var(--color-light-gray);
+    color: var(--color-platinum);
 }
 
 a,
@@ -122,7 +122,7 @@ svg * {
     --color-platinum: #E0E0E0;
 
     ---border-radius: 30px;
-    --border: 1px solid var(--color-light);
+    --border: 2px solid var(--color-light);
 
     --font-family-base: 'Roboto', sans-serif;
     --font-family-accent: 'Yantramanav', sans-serif;
@@ -142,7 +142,7 @@ svg * {
     height: 38px;
     align-items: center;
     padding-inline: 26px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 2;
     letter-spacing: 1.2px;
@@ -155,7 +155,7 @@ svg * {
 }
 
 .button:hover {
-    background-color: var(--color-light-gray);
+    background-color: var(--color-green);
 }
 
 .button.transparent {
@@ -318,7 +318,7 @@ h6 {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 1.2px;
     display: inline-flex;
     align-items: center;
@@ -328,9 +328,9 @@ h6 {
 
 .header-menu-link.is-curent::after {
     content: "";
-    width: 5px;
+    width: 7px;
     aspect-ratio: 1;
-    background-color: currentColor;
+    background-color: var(--color-green);
     border-radius: 50%;
 }
 
@@ -354,13 +354,13 @@ h6 {
 }
 
 .header-burger-button-line {
-    width: 6px;
-    height: 1px;
+    width: 20px;
+    height: 3px;
+    border-radius: var(---border-radius);
     background-color: currentColor;
-    box-shadow: 16px 0 0 currentColor;
 }
 
 .header-burger-button:hover {
-    color: var(--color-light-gray);
+    color: var(--color-green);
     border-color: currentColor;
 }
