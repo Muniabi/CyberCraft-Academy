@@ -22,6 +22,7 @@
     font-display: swap;
 }
 
+/*  ALL  */
 
 *::before,
 *::after {
@@ -136,6 +137,8 @@ svg * {
 
     --header-height: 0px;
 }
+
+/* INDEX  */
 
 .button {
     display: inline-flex;
